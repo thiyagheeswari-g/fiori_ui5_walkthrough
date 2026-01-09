@@ -1,0 +1,56 @@
+![UI5 logo](./docs/images/UI5_logo_wide.png)
+
+# UI5 CLI
+
+> An open and modular toolchain to develop state-of-the-art applications based on the [UI5](https://ui5.sap.com) framework.
+
+[![REUSE status](https://api.reuse.software/badge/github.com/UI5/cli)](https://api.reuse.software/info/github.com/UI5/cli)
+[![OpenUI5 Community Slack (#tooling channel)](https://img.shields.io/badge/slack-join-44cc11.svg)](https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Coverage Status](https://coveralls.io/repos/github/UI5/cli/badge.svg)](https://coveralls.io/github/UI5/cli)
+
+This repository contains the current **development state** of the upcoming UI5 CLI v5 release.  
+Note that previous versions (up to v4) are maintained in [dedicated repositories](https://github.com/UI5/cli/tree/v4?tab=readme-ov-file#modules).
+
+> [UI5 CLI v4](https://ui5.github.io/cli/v4) is the latest and stable version 🎉
+>
+> [UI5 CLI v3](https://ui5.github.io/cli/v3) and [UI5 CLI v2](https://ui5.github.io/cli/v2) have been deprecated 🚫
+>
+> We highly recommend migrating to [**the latest version**](https://ui5.github.io/cli/stable/).
+
+## Resources
+
+- [Documentation](https://ui5.github.io/cli/stable/)
+- [API Reference](https://ui5.github.io/cli/stable/api/)
+- [CLI Documentation](https://ui5.github.io/cli/stable/pages/CLI/)
+- [Project Configuration](https://ui5.github.io/cli/stable/pages/Configuration/)
+- 🎬 [UI5con@SAP 2025 Talk](https://www.youtube.com/live/0D0_M4RDiZY?si=tuOjd8s6S_FUvAaF&t=4948)
+- 🎬 [UI5con@SAP 2020 Talk](https://www.youtube.com/watch?v=8IHoVJLKN34)
+- 🎬 [UI5con@SAP 2018 Talk](https://www.youtube.com/watch?v=iQ07oe26y_k)
+- [Contribution Guidelines](https://github.com/UI5/cli/blob/main/CONTRIBUTING.md)
+- [Roadmap](https://github.com/UI5/cli/issues/701)
+
+## Packages
+
+UI5 CLI consists of multiple packages managed within this monorepo:
+
+- **packages/cli**: UI5 Command Line Interface, utilizing all of the following packages
+- **packages/project**: Modules for building a UI5 project's dependency tree, including configuration
+- **packages/server**: Modules for running a UI5 development server
+- **packages/builder**: Modules for building UI5 projects
+- **packages/fs**: UI5 specific file system abstraction
+- **packages/logger**: Internal logging module
+
+**Usage Overview** *(arrows indicate dependencies)*
+![Module Overview](./internal/documentation/docs/images/Module_overview.png)
+
+## Contributing
+
+Please check our [Contribution Guidelines](https://github.com/UI5/cli/blob/main/CONTRIBUTING.md).
+
+## Support
+
+Please follow our [Contribution Guidelines](https://github.com/UI5/cli/blob/main/CONTRIBUTING.md#report-an-issue) on how to report an issue. Or chat with us in the [`#tooling`](https://openui5.slack.com/archives/C0A7QFN6B) channel of the [OpenUI5 Community Slack](https://ui5-slack-invite.cfapps.eu10.hana.ondemand.com). For public Q&A, use the [`ui5-tooling` tag on Stack Overflow](https://stackoverflow.com/questions/tagged/ui5-tooling).
+
+## Kudos
+Thanks go out to [Holger Schäfer](https://github.com/hschaefer123) for the amazing [UI5 VitePress](https://github.com/hschaefer123/ui5-vitepress) project, which serves as the foundation for the UI5 CLI documentation.

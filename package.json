@@ -1,0 +1,25 @@
+{
+    "name": "ui5.walkthrough",
+    "version": "1.0.0",
+    "description": "This is a ui5 walkthrough application",
+    "script": {
+        "start": ""
+    },
+    "devDependencies": {
+        "@ui5/cli-monorepo": "github:ui5/cli"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thiyagheeswari-g/fiori_ui5_walkthrough.git"
+    },
+    "author": "Thiyagheeswari G",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thiyagheeswari-g/fiori_ui5_walkthrough/issues"
+    },
+    "homepage": "https://github.com/thiyagheeswari-g/fiori_ui5_walkthrough#readme"
+}
