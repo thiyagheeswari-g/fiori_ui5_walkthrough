@@ -1,12 +1,13 @@
 {
     "name": "ui5.walkthrough",
     "version": "1.0.0",
+    "private": true,
     "description": "This is a ui5 walkthrough application",
     "script": {
-        "start": ""
+        "start": "ui5 serve -o index.html"
     },
     "devDependencies": {
-        "@ui5/cli-monorepo": "github:ui5/cli"
+        "@ui5/cli": "^4.0.39"
     },
     "main": "index.js",
     "scripts": {
