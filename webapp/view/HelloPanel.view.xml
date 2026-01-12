@@ -10,6 +10,7 @@
         <content>
             <Button
                 id="helloDialogButton"
+                icon="sap-icon://feeder-arrow"
                 text="{i18n>openDialogButtonText}"
                 class="sapUiSmallMarginEnd"
                 press=".onOpenDialog"/>
